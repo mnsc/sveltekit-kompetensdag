@@ -1,3 +1,31 @@
+# Notes 
+
+## SANITY.IO
+
+* datalake  
+* GROQ
+* studio
+* schemas
+* inget auth, todo
+
+## SVELTEKIT 
+
+  * SPA
+  * som next fast svelte
+  * svelte history
+     * compiletime rich harris
+
+## TAILWIND
+
+  * optional
+  * css utility
+
+
+## VERCEL
+
+ * host shit
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
