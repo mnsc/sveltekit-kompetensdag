@@ -5,9 +5,11 @@
   
   <main>
     <div class="container mx-auto">
+        <ul>
         {#each days as day}
-            <div>{day.title} - {day.description}</div>
+            <li>{day.title} - {day.description}</li>
         {/each}
+        </ul>
     </div>
   </main>
   
