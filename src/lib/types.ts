@@ -5,6 +5,8 @@ export type Conference = {
     venue: string,
     startDate: Date,
     endDate: string,
+    talkCount:number,
+    speakerCount: number,
     days: Day[]
 }
 
