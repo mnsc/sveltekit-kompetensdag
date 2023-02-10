@@ -4,7 +4,7 @@ import type { Conference } from '../lib/types';
 import type { PageLoad } from './$types';
 
 const client = sanityClient({
-	projectId: '',
+	projectId: 'x8m9pf2g',
 	dataset: 'production',
 	apiVersion: '2023-01-30',
 	useCdn: false
@@ -45,6 +45,6 @@ export const load: PageLoad<OutputType> = async ({ params }) => {
       }
   }
   }`);
-
+  
 	return { conferences: data as Conference[] };
 };
